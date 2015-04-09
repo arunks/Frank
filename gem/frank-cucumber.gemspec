@@ -20,7 +20,7 @@ Gem::Specification.new do |s|
   s.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
   s.require_paths = ["lib"]
 
-  s.add_dependency( "cucumber", ["~>1.3.10"] )
+  s.add_dependency( "cucumber", ["~>2.0.0"] )
   s.add_dependency( "rspec", ["~>2.14.1"] )
   s.add_dependency( "sim_launcher", ["~>0.4.6"] )
   s.add_dependency( "i18n", ["~>0.6.9"] )
